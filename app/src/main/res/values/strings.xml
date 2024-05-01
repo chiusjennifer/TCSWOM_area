@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Spinner_test</string>
+    <string-array name="ad">
+        <item>大雅區</item>
+        <item>北區</item>
+        <item>北屯區</item>
+        <item>西區</item>
+        <item>西屯區</item>
+        <item>霧峰區</item>
+    </string-array>
+    <string-array name="foundations_daya">
+        <item>財團法人基督教惠明盲人福利基金會</item>
+    </string-array>
+    <string-array name="foundations_north">
+        <item>財團法人天才社會福利慈善事業基金會</item>
+    </string-array>
+    <string-array name="foundations_beitun">
+        <item>財團法人瑪利亞社會福利基金會</item>
+    </string-array>
+    <string-array name="foundations_west">
+        <item>財團法人向上社會福利基金會</item>
+        <item>財團法人臺灣省私立臺中仁愛之家</item>
+    </string-array>
+    <string-array name="foundations_xitun">
+        <item>財團法人富宇社會福利慈善事業基金會</item>
+    </string-array>
+    <string-array name="foundations_Wufeng">
+        <item>財團法人台灣省私立正豐社會福利慈善事業基金會</item>
+    </string-array>
+</resources>
