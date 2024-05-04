@@ -1,11 +1,13 @@
 package tw.edu.pu.s1114859.spinner_two_level
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.ImageButton
 import android.widget.Spinner
 import android.widget.Toast
 
@@ -16,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        val homebtn:ImageButton=findViewById(R.id.homeBtn)
         spinner1 = findViewById(R.id.spinner1)
         spinner2 = findViewById(R.id.spinner2)
 
@@ -82,6 +84,11 @@ class MainActivity : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 // 可以不实现此方法，或者根据需要添加逻辑
             }
+        }
+        homebtn.setOnClickListener {
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }
